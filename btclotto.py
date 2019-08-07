@@ -14,7 +14,7 @@ from neopixel import *
 # LED strip configuration:
 LED_COUNT      = 8      # Number of LED pixels.
 LED_PIN        = board.D18      # GPIO pin connected to the pixels (18 uses PWM!).
-LED_BRIGHTNESS = 0.2     #0-1
+LED_BRIGHTNESS = 0.2     #0 for darkest and 1 for brightest
 AUTO_WRITE     = False
 
 BLOCK = '000000000000000000e04b20fb1ddd3305d4e7112a9c4247e59d224a89f96d5a'
